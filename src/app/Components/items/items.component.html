@@ -1,0 +1,29 @@
+<div class="row pb-4">
+  <app-single-item class="col-6" *ngFor="let i of items" [item]="i"></app-single-item>
+  <div class="container mt-4">
+    <div>
+      <label for="itemId">ID</label>
+      <input type="text" name="itemId" id="itemId" [(ngModel)]="this.addId">
+    </div>
+    <div>
+      <label for="imageSource" >Image Source</label>
+      <input type="text" name="imageSource" id="imageSource" [(ngModel)]="this.addSource">
+    </div>
+    <div>
+      <label for="type" >Type</label>
+      <input type="text" name="type" id="type" [(ngModel)]="this.addType">
+    </div>
+    <div>
+      <label for="color" >Color</label>
+      <input type="text" name="color" id="color" [(ngModel)]="this.addColor">
+    </div>
+    <div>
+      <label for="size" >Size</label>
+      <input type="text" name="size" id="size" [(ngModel)]="this.addSize">
+    </div>
+    <div class=" text-center">
+      <button class=" w-25 btn btn-dark" (click)="addItem()" >Add Item</button>
+    </div>
+  </div>
+</div>
+

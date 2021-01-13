@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "Squadra",
+      "size": 45,
+      "color": "Navy",
+      "src": "./assets/images/01.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Low-Top Slip-On Sneakers",
+      "size": 43,
+      "color": "Grey",
+      "src": "./assets/images/02.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Heeled Sandals",
+      "size": 38,
+      "color": "Dark Green",
+      "src": "./assets/images/03.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Slip On",
+      "size": 43,
+      "color": "Black",
+      "src": "./assets/images/04.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Casual Shoe",
+      "size": 38,
+      "color": "Golden",
+      "src": "./assets/images/05.jpg"
+    },
+    {
+      "id": 6,
+      "type": "Running Sneakers",
+      "size": 44,
+      "color": "White and Black",
+      "src": "./assets/images/06.jpg"
+    }
+  ]
+}
